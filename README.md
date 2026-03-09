@@ -143,7 +143,7 @@ For each structure, define:
 
 If ISR is involved, keep operations short, avoid blocking, and minimize shared mutable state.
 
-## Suggested validation plan (after you implement)
+## Validation plan
 
 - boundary tests: empty/full conditions
 - wrap-around tests (ring buffer/queue)
@@ -151,4 +151,3 @@ If ISR is involved, keep operations short, avoid blocking, and minimize shared m
 - stress tests at max capacity
 - timing checks for worst-case paths
 
-This keeps the repo student-friendly but still technically serious for embedded work.
