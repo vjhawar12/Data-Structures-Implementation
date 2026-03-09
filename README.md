@@ -1,4 +1,4 @@
-# Embedded Data Structures (not using Heap)
+# Embedded Data Structures (allocated on Stack only)
 
 This repo is a **design guide** for core data structures built for constrained embedded systems.
 
