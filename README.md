@@ -1,4 +1,4 @@
-# Embedded Data Structures (No-Heap)
+# Embedded Data Structures (not using Heap)
 
 This repo is a **design guide** for core data structures built for constrained embedded systems.
 
@@ -9,9 +9,9 @@ It focuses on:
 - **Embedded-friendly APIs**
 - **ISR-safe patterns where possible**
 
-## API style (recommended)
+## API style
 
-Keep APIs simple and predictable:
+Containers are simple and predictable:
 - initialize with fixed buffers/capacity
 - return status codes (`OK`, `FULL`, `EMPTY`, `NOT_FOUND`, etc.)
 - avoid exceptions and hidden allocations
@@ -113,7 +113,7 @@ Keep APIs simple and predictable:
 
 ---
 
-## 7) Static Hash Map (Advanced)
+## 7) Static Hash Map
 
 **What it is:** Key-value map with fixed capacity and no resizing.
 
