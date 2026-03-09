@@ -9,8 +9,6 @@ It focuses on:
 - **Embedded-friendly APIs**
 - **ISR-safe patterns where possible**
 
-No C/C++ implementation is included in this document yet (you’ll write the code).
-
 ## API style (recommended)
 
 Keep APIs simple and predictable:
